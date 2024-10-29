@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import jennyhImg from "@/public/jennyh.png";
+import kpiImg from "@/public/kpi.png";
+import managepertImg from "@/public/managepert.png";
+import harvestabadiImg from "@/public/harvestabadi.png";
+import dishubsituImg from "@/public/dishubsitu.png";
 
 export const links = [
   {
@@ -35,52 +37,66 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Lulusan MSIB Batch 4 Front-End Developer",
+    location: "Maxy Academy",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Saya lulus setelah berpartipisasi dalam studi independent 1 bulan di Maxy Academy dan langsung mendapatkan case pekerjaan sebagai front-end developer di PT Seru selama 3 bulan.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Publisher dan Presented",
+    location: "Centive, Institut Teknologi Telkom Purwokerto",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Saya mempublikasikan jurnal dan mempresentasikannya di Centive, Institut Teknologi Telkom Purwokerto. Judul jurnal tersebut adalah Perancangan Sistem Layanan Pengaduan Masyarakat Berbasis Web Menggunakan Metode Extreme Programming.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Sertifikasi Junior Web Developer",
+    location: "BNSP",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Saya berhasil mendapatkan Sertifikasi Junior Web Developer setelah menyelesaikan pelatihan di Institut Teknologi Telkom Purwokerto.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Jenny House",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Platform blog untuk berbagi tips dan pengalaman makeup serta fashion, dengan antarmuka sederhana dan elegan. ",
+    tags: ["React", "Next.js", "mysql", "Tailwind", "laravel"],
+    imageUrl: jennyhImg,
   },
   {
-    title: "rmtDev",
+    title: "Key Performance Indicator (KPI)",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Yaitu website untuk mengukur kinerja individu, tim, membantu mengevaluasi efektivitas proses atau kegiatan bisnis tertentu.",
+    tags: ["React", "Next.js", "mysql", "Tailwind", "laravel"],
+    imageUrl: kpiImg,
   },
   {
-    title: "Word Analytics",
+    title: "Management Pertandingan Karate",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Platform website untuk pendataan pendaftaran tim dan atlet, pengaturan kelas, serta pemrosesan pembayaran real-time.",
+    tags: ["mysql", "Tailwind", "laravel"],
+    imageUrl: managepertImg,
+  },
+  {
+    title: "Harvest Abadi",
+    description:
+      "Platform website company profile dengan menampilkan informasi service dan profile perusahaan Harvest Abadi",
+    tags: ["React", "mysql", "Tailwind", "laravel"],
+    imageUrl: harvestabadiImg,
+  },
+  {
+    title: "Dishub Situbondo",
+    description:
+      "Platform website company profile dengan menampilkan informasi artikel, jadwal transportasi dan profile company",
+    tags: ["React", "mysql", "Tailwind", "laravel"],
+    imageUrl: dishubsituImg,
   },
 ] as const;
 
@@ -92,16 +108,10 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "PHP",
+  "Laravel",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "MYSQL",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
